@@ -1,0 +1,219 @@
+{
+    "animations": {
+        "enabled": true
+    },
+    "audio": {
+        "deviceNames": {
+            "alsa_input.pci-0000_2f_00.4.analog-stereo": "Edifier Speakers (no input)",
+            "alsa_output.pci-0000_2d_00.1.hdmi-stereo": "Second Monitor Speaker",
+            "alsa_output.pci-0000_2f_00.4.analog-stereo": "Edifier Speakers"
+        }
+    },
+    "autostart": {
+        "enabled": true,
+        "quickshell": true
+    },
+    "bar": {
+        "toggleFrame": true
+    },
+    "clock": {
+        "use24h": true
+    },
+    "colorHistory": [
+        "#fc782f",
+        "#979797",
+        "#1c1c1c",
+        "#fff1ee",
+        "#c46b3f",
+        "#d92323",
+        "#f58b4e",
+        "#f59f6e",
+        "#e38224",
+        "#b66419",
+        "#eaa401"
+    ],
+    "colorSets": {
+        "Dark yellow": {
+            "accent": "#ff7627",
+            "bg": "#1c1c1c",
+            "border": "#292929",
+            "brightness": 0,
+            "contrast": 0,
+            "error": "#ff4d6d",
+            "focus": "#f16701",
+            "focusFill": 0.1,
+            "saturation": 0,
+            "selection": "#d25d62",
+            "success": "#4ade80",
+            "surface": "#2f2f2f",
+            "text": "#e3a944",
+            "textMuted": "#c49138",
+            "textOnAccent": "#535353",
+            "warning": "#f2e852"
+        },
+        "Light red": {
+            "accent": "#9c0126",
+            "bg": "#f2aea1",
+            "border": "#7e443a",
+            "brightness": 0,
+            "contrast": 0,
+            "error": "#ff4d6d",
+            "focus": "#d92323",
+            "focusFill": 0.3,
+            "saturation": 0,
+            "selection": "#d25d62",
+            "success": "#4ade80",
+            "surface": "#d69487",
+            "text": "#582a0b",
+            "textMuted": "#81383b",
+            "textOnAccent": "#fff1ee",
+            "warning": "#f2e852"
+        }
+    },
+    "colors": {
+        "accent": "#9c0126",
+        "bg": "#f2aea1",
+        "border": "#7e443a",
+        "brightness": 0,
+        "contrast": 0,
+        "error": "#ff4d6d",
+        "focus": "#d92323",
+        "focusFill": 0.3,
+        "saturation": 0,
+        "selection": "#d25d62",
+        "success": "#4ade80",
+        "surface": "#d69487",
+        "text": "#582a0b",
+        "textMuted": "#81383b",
+        "textOnAccent": "#fff1ee",
+        "warning": "#f2e852"
+    },
+    "controlcenter": {
+        "blur": false,
+        "dim": true
+    },
+    "finder": {
+        "excludeDirs": [
+            "node_modules",
+            "__pycache__",
+            "venv",
+            "site-packages",
+            "build",
+            "target",
+            "dist",
+            "DaVinci Resolve Media",
+            "resolve-linux",
+            "Wallpapers",
+            "Templates"
+        ],
+        "excludeExts": [
+            "pyc",
+            "pyo",
+            "o",
+            "obj",
+            "class",
+            "so",
+            "a",
+            "dll",
+            "lock",
+            "tmp",
+            "temp",
+            "bak",
+            "swp",
+            "log",
+            "aux",
+            "fls",
+            "fdb_latexmk",
+            "toc",
+            "out",
+            "bbl",
+            "blg",
+            "idx",
+            "ilg",
+            "ind",
+            "lof",
+            "lot",
+            "synctex.gz",
+            "cache",
+            "db",
+            "sqlite",
+            "dat",
+            "pak",
+            "mo",
+            "qmlc",
+            "jsc",
+            "ttf",
+            "otf",
+            "woff",
+            "woff2",
+            "map"
+        ],
+        "excludeHiddenDirs": [
+            ".git",
+            ".cache",
+            ".local/share",
+            ".local/state",
+            ".steam",
+            ".var",
+            ".mozilla",
+            ".npm",
+            ".cargo",
+            ".rustup",
+            ".nvm",
+            ".thunderbird"
+        ],
+        "searchAll": false,
+        "searchSystem": false,
+        "showHidden": false,
+        "systemDirs": [
+            "/etc",
+            "/opt",
+            "/usr/local",
+            "/usr/share/applications"
+        ]
+    },
+    "font": {
+        "cursorSize": 20,
+        "cursorTheme": "Bibata-Modern-Ice",
+        "family": "JetBrainsMono Nerd Font",
+        "fontSize": 13,
+        "gtkTheme": "adw-gtk3-dark",
+        "iconTheme": "Papirus-Dark",
+        "scale": 1,
+        "uiFamily": "JetBrainsMono Nerd Font"
+    },
+    "frameRounding": 18,
+    "hypr": {
+        "borderSize": 2,
+        "gapsIn": 2,
+        "gapsOut": 10
+    },
+    "launcher": {
+        "blur": false,
+        "dim": true,
+        "showMore": false
+    },
+    "lockWallpaper": "/home/jannis/Wallpapers/PersonaWallpaper.png",
+    "loginWallpaper": "/home/jannis/Wallpapers/PersonaWallpaper.png",
+    "mainMonitor": "DP-1",
+    "menuAngle": 7,
+    "menuRounding": 7,
+    "mouse": {
+        "scrollFactor": 1,
+        "sensitivity": 0
+    },
+    "notification": {
+        "maxHistory": 50,
+        "timeout": 5000,
+        "width": 380
+    },
+    "rounding": 16,
+    "scale": 1,
+    "screenshot": {
+        "allScreens": false
+    },
+    "wallpapers": {
+        "DP-1": "/home/jannis/Wallpapers/wallhaven-47297v_1920x1080.png",
+        "HDMI-A-1": "/home/jannis/Wallpapers/wallhaven-47297v_1920x1080.png"
+    }
+}

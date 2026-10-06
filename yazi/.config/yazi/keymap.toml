@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on   = [ "g", "f" ]
+run  = "cd ~/.config"
+desc = "Cd to ~/.config"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "l" ]
+run  = "follow"
+desc = "Go to symlink target"
+
+[[manager.prepend_keymap]]
+on   = [ "<C-y>" ]
+run  = 'shell -- ~/Binaries/clip-files "$@"'
+desc = "Copy selected files to the clipboard as files"

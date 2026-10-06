@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+# desc: Launches Mason's ltex-ls with the JVM flag LanguageTool needs
+# The old system install this pointed at (/usr/share/ltex-ls) never existed on this
+# machine, so ltex failed to start. Mason already installs its own self-contained
+# ltex-ls for nvim, use that instead.
+# jdk.xml.totalEntitySizeLimit=0 is required: on modern JDKs the default entity-size
+# guard rejects LanguageTool's bundled en/grammar.xml as too large, crashing the
+# server on startup with "Could not activate rules". Mason's launcher forwards $JAVA_OPTS.
+export JAVA_OPTS="-Djdk.xml.totalEntitySizeLimit=0"
+exec "$HOME/.local/share/nvim/mason/bin/ltex-ls" "$@"

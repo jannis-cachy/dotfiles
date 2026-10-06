@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+# desc: Sends a quickshell ipc call, starts quickshell first if it is not running
+# qs ipc exits nonzero only when no instance runs, "Not ready" still returns 0
+qs ipc call "$@" >/dev/null 2>&1 && exit 0
+
+quickshell -d >/dev/null 2>&1
+# A cold start already restores the saved bars, so toggling could hide the bar again
+[[ "$1 $2" == "bar toggle" ]] && set -- bar open
+# Handlers are listed only once the config is loaded, wait up to 5s
+for i in {1..100}; do
+    qs ipc show 2>/dev/null | grep -q "^target $1\$" && break
+    sleep 0.05
+done
+qs ipc call "$@"

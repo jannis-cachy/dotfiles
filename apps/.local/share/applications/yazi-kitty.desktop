@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Yazi
+Comment=Browse folders in Yazi inside kitty
+Exec=kitty yazi %f
+Icon=yazi
+Terminal=false
+MimeType=inode/directory;
+Categories=Utility;FileManager;

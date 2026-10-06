@@ -1,0 +1,4 @@
+# Starts quickshell on the first notification when it is not running yet
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+Exec=/usr/bin/quickshell -d
